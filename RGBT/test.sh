@@ -1,0 +1,2 @@
+python test.py --modelname TLCNet --phase test --load_pre 'cpts/' --scale 16 --layer 5 --gpu_id 1 --testset 'CIDIS_200'
+python test.py --modelname TLCNet --phase test --load_pre 'cpts/' --scale 8 --layer 5 --gpu_id 1 --testset 'CIDIS_200'
